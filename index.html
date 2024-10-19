@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dipu Mishra's Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Dipu Mishra</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#things-i-do">Things I Do</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hire-me">Hire Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button id="theme-toggler" class="btn btn-outline-light">
+                <i class="fas fa-sun"></i> Light Mode
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header text-center" id="header">
+      <div class="header-overlay">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 text-left">
+              <h1 class="animate__animated animate__fadeInDown">
+                Welcome to My Portfolio
+              </h1>
+              <p class="lead animate__animated animate__fadeInUp">
+                I’m Dipu Mishra, a passionate developer.
+              </p>
+              <a
+                href="#projects"
+                class="btn btn-primary animate__animated animate__fadeInUp"
+                >View My Work</a
+              >
+            </div>
+            <div class="col-md-6 text-center">
+              <img
+                src="./assets/photo.jpg"
+                alt="Dipu Mishra"
+                class="img-fluid rounded-circle my-photo animate animated animate fadeInRight"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center animate__animated animate__fadeIn">About Me</h2>
+        <p class="text-center animate__animated animate__fadeIn">
+          I am Dipu Mishra, a third-year B.Tech student in Information
+          Technology at KIET Group of Institutions. I specialize in Android
+          development, Flutter, and Machine Learning, with a passion for
+          creating apps that solve real-world problems. I have developed various
+          applications, including a BMI app, a music player, and 'FarmSmart'—an
+          intelligent mobile app for crop prediction and disease detection in
+          agriculture.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light skills">
+      <div class="container">
+        <h2 class="text-center animate__animated animate__fadeIn">Skills</h2>
+        <div class="row text-center">
+          <div class="col-md-3">
+            <i class="fas fa-code fa-3x"></i>
+            <h5>HTML/CSS</h5>
+          </div>
+          <div class="col-md-3">
+            <i class="fas fa-laptop-code fa-3x"></i>
+            <h5>Flutter</h5>
+          </div>
+          <div class="col-md-3">
+            <i class="fab fa-python fa-3x"></i>
+            <h5>Python</h5>
+          </div>
+          <div class="col-md-3">
+            <i class="fas fa-database fa-3x"></i>
+            <h5>SQL</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5">
+      <div class="container">
+        <h2 class="text-center animate__animated animate__fadeIn">
+          Experience
+        </h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Volunteer Developer at DevUp</h4>
+            <p>Dec 2022 - Sep 2023</p>
+            <p>
+              Worked as a team member on several development projects,
+              contributing to web and mobile app development, and honing my
+              skills in Flutter and machine learning integration.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Things I Do Section -->
+    <section id="things-i-do" class="py-5 bg-dark-section things-i-do">
+      <div class="container">
+        <h2 class="text-center animate__animated animate__fadeIn">
+          Things I Do
+        </h2>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <i class="fas fa-laptop-code fa-3x"></i>
+            <h5>App Development</h5>
+            <p>Building cross-platform mobile applications with Flutter.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-database fa-3x"></i>
+            <h5>Machine Learning</h5>
+            <p>
+              Integrating machine learning models into mobile and web
+              applications.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-cloud fa-3x"></i>
+            <h5>Cloud Integration</h5>
+            <p>
+              Using Firebase for real-time databases, authentication, and cloud
+              messaging.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+      <div class="container">
+        <h2 class="text-center animate__animated animate__fadeIn">Projects</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 animate__animated animate__zoomIn">
+              <div class="card-body">
+                <h5 class="card-title">FarmSmart</h5>
+                <p class="card-text">
+                  An intelligent app for crop prediction and disease detection
+                  in agriculture, built using Flutter, TensorFlow, and Firebase.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 animate__animated animate__zoomIn">
+             
+              <div class="card-body">
+                <h5 class="card-title">Weather App</h5>
+                <p class="card-text">
+                  A weather forecasting app providing real-time updates using
+                  APIs and user-friendly design.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 animate__animated animate__zoomIn">
+              <div class="card-body">
+                <h5 class="card-title">BMI App</h5>
+                <p class="card-text">
+                  A simple and efficient BMI calculator app to track health and
+                  fitness metrics.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hire Me Section -->
+    <section id="hire-me" class="py-5 bg-light">
+      <div class="container text-center">
+        <h2 class="animate__animated animate__fadeIn">Hire Me</h2>
+        <p>
+          Looking for a passionate developer to bring your project to life? Get
+          in touch!
+        </p>
+        <a href="#contact" class="btn btn-primary">Contact Me</a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center animate__animated animate__fadeIn">
+          Contact Me
+        </h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3">
+      <div class="container">
+        <p>&copy; 2024 Dipu Mishra. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
